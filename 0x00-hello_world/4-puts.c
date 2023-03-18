@@ -1,8 +1,7 @@
 #include <stdio.h>
 /**
-*main - Learing how to print with puts
-*puts - show a sentence
-*retuen : 0 (success)
+*main - printing a sentence
+*Return: 0 (success)
 */
 int main(void)
 {
