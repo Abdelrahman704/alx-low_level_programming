@@ -13,12 +13,12 @@ int main(void)
 	{
 		putchar(alpha[x]);
 	}
-	char alpha2[26] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char alphax[26] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int y;
 
 	for (y = 0; y < 26; y++)
 	{
-		putchar(alpha2[y]);
+		putchar(alphax[y]);
 	}
 	putchar('\n');
 	return (0);
