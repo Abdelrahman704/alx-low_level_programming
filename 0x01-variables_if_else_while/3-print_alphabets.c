@@ -6,19 +6,12 @@
  */
 int main(void)
 {
-	char alpha[26] = "abcdefghijklmnopqrstuvwxyz";
+	char alpha[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int x;
 
-	for (x = 0; x < 26; x++)
+	for (x = 0; x < 52; x++)
 	{
 		putchar(alpha[x]);
-	}
-	char alphax[26] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	int y;
-
-	for (y = 0; y < 26; y++)
-	{
-		putchar(alphax[y]);
 	}
 	putchar('\n');
 	return (0);
