@@ -1,19 +1,16 @@
 #inclode "main.h"
 /**
- * main - Determine the last digit of a random number.
+ * main - Entry points
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
+	char AR[] = "_putchar";
+	int ch;
+
+	for (ch = 0; ch < 8; ch++)
+		putchar(AR[ch]);
 	_putchar('\n');
 	return (0);
 }
