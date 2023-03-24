@@ -3,9 +3,8 @@
 /**
 * jack_bauer - printing every minute of the day of Jack Bauer
 * starting from 00:00 to 23:59
-* Return : always 0
 */
-int jack_bauer(void)
+void jack_bauer(void)
 {
 	int hr, min;
 
@@ -21,7 +20,4 @@ int jack_bauer(void)
 		}
 		hr++;
 	}
-	return (0);
-
 }
-
