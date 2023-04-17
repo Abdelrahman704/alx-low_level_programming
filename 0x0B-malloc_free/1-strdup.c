@@ -18,7 +18,7 @@ char *_strdup(char *str)
 		return (0);
 	for (sizze = 0; str[sizze]; sizze++)
 	;
-	mallok = malloc(sizze * sizeof(char));
+	mallok = malloc(sizze * sizeof(char) + 1);
 	if (mallok == 0)
 		return (0);
 	for (k = 0; k < sizze; k++)
