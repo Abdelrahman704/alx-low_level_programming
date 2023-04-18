@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stddef.h>
+#include <stdlib.h>
 /**
  * git_size - git the length
  * @s: a string
@@ -39,7 +41,7 @@ char *str_concat(char *s1, char *s2)
 			m[i] = s1[i];
 		}
 		else
-			[i] = s2[i - n1];
+			m[i] = s2[i - n1];
 	}
 	m[i] = '\0';
 	return (m);
