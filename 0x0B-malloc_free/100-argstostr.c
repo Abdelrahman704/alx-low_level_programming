@@ -16,10 +16,10 @@ int get_length(char *s)
 /**
  * *argstostr - a function that concatenates all the
  * arguments of your program.
- * 
+ *
  * @ac: int
  * @av: arguments
- * 
+ *
  * Return: string
  */
 char *argstostr(int ac, char **av)
