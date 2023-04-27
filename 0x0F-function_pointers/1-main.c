@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "function_pointers.h"
-
+#include "1-array_iterator.c"
 /**
  * print_elem - prints an integer
  * @elem: the integer to print
