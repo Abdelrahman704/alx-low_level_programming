@@ -3,7 +3,7 @@
 /**
  * formats_ch - formats character
  * @separator: the string seprator
- * @ap: argument pointer
+ * @pa: argument pointer
  */
 void formats_ch(char *separator, va_list pa)
 {
@@ -13,7 +13,7 @@ void formats_ch(char *separator, va_list pa)
 /**
  * formats_i - formats integer
  * @separator: the string seprator
- * @ap: argument pointer
+ * @pa: argument pointer
  */
 void formats_i(char *separator, va_list pa)
 {
